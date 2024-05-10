@@ -1,0 +1,23 @@
+@KPACodingProject_HostAddress = http://localhost:5238
+
+PUT {{KPACodingProject_HostAddress}}/api/airlines/updateAirline
+accept: text/plain
+Content-Type: application/json
+
+{
+  "id": 2,
+  "code": "BOS",
+  "name": "Boston, MA: Logan Intl",
+  "flights": [
+    {
+      "id": 0,
+      "cancelled": 0,
+      "delayed": 0,
+      "diverted": 0,
+      "onTime": 0,
+      "total": 0
+    }
+  ]
+}
+
+###
